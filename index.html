@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="" class="Logo"><img src="./images/JarrodMccoyLogo.png" alt="JarrodMccoyLogo"></a>
+
+        <nav class="navbar">
+            <a href="" data-target="About">About</a>
+            <a href="" data-target="Skills">Skills</a>
+            <a href="" data-target="Projects">Projects</a>
+            <a href="" data-target="Contact">Contact</a>
+        </nav>
+        <svg class="ham hamRotate ham8" viewBox="0 0 100 100" width="80" id="hambuger" onclick="toggleMenu()" >
+            <path class="line top" d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+            <path class="line middle" d="m 30,50 h 40" />
+            <path class="line bottom" d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+          </svg>
+    </header>
+
+    <section class="hero">
+        <div class="wrap">
+            <div class='top-plane'></div>
+            <div class='bottom-plane'></div>
+          </div>
+          <div class="background"></div>
+            <div class="grid-wrapper">
+            <div class="name-div">
+                <h1 class="name title three">
+                    Jarrod McCoy
+                </h1>
+            </div>
+            <div class="keyboard-wrapper">
+                <img src="images/roattinggif.gif" alt="spinning keyboard">
+            </div>  
+            <div class="About-me">
+                <p> A Fullstack Developer
+                </p>
+            </div>
+    </div>
+    </section>
+
+
+    <section class="about-me" id="About">
+        <div class="about-me-wrapper">
+            <h1 class="title five">About Me</h1>   
+        </div>
+        <div class="about-grid">
+            <div class="testimonial centered-grid flow bg-primary-400 quote text-neutral-100 centered-text">
+                <p>I work on projects that improve user interfaces and make life more convenient.
+                    I focus on bringing ideas to life and perfecting the details.
+                    I thrive in an open-minded environment and tend to wear many hats in my career.
+                    I'm always looking for a new challenge and spend most of my time learning.</p>
+            </div>
+            <div class="testimonial centered-grid flow bg-secondary-400 text-neutral-100 centered-text">
+                <p>
+                    I've been coding for over two years now, and I've worked on projects of all sizes. 
+                    Whether it's front-end development or diving into full-stack projects, I'm always up for a challenge.
+                    I'm truly passionate about this field and love bringing ideas to life through code. Thanks for checking out my Portfolio!
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="skills" id="Skills">
+        <div class="heading-wrapper margin-top">
+            <h1 class="title one">Skills</h1>
+        </div>
+        <div id="skills-grid" class="skills-grid">
+            <div id="div1 testimonial"
+                class="testimonial grid-col-span-2 flow bg-primary-400 quote text-neutral-100 centered-text">
+                <h2>Java</h2>
+                <img src="./images/java-icon.png" alt="SB" />
+            </div>
+            <div id="div2 testimonial" class="testimonial flow bg-secondary-500 text-neutral-100 centered-text">
+                <h2>Html5</h2>
+                <img src="./images/html-icon.png" alt="SB" />
+            </div>
+            <div id="div3 testimonial" class="testimonial flow bg-neutral-100 text-secondary-400 centered-text">
+                <h2>Vue.JS</h2>
+                <img src="./images/vue-icon.png" alt="SB" />
+            </div>
+            <div id="div4 testimonial" class="testimonial flow bg-neutral-100 text-secondary-400 centered-text">
+                <h2>Css3</h2>
+                <img src="./images/css-icon.png" alt="SB" />
+            </div>
+            <div id="div5 testimonial" class="testimonial flow bg-secondary-400 text-neutral-100 centered-text">
+                <h2>JavaScript</h2>
+                <img src="./images/javascript-icon.png" alt="SB" />
+            </div>
+            <div id="div6 testimonial" class="testimonial flow bg-neutral-100 text-secondary-400 centered-text">
+                <h2>Postgres SQL</h2>
+                <img src="./images/postgres-icon.png" alt="SB" />
+            </div>
+            <div id="div7 testimonial"
+                class="testimonial grid-col-span-2 flow bg-primary-400 quote text-neutral-100 centered-text">
+                <h2>Spring Boot</h2>
+                <img src="./images/springboot-icon.png" alt="SB" />
+            </div>
+            <div id="div8 testimonial" class="testimonial flow bg-secondary-400 text-neutral-100 centered-text">
+                <h2>API's</h2>
+                <img src="./images/api-icon.png" alt="SB" />
+            </div>
+            <div id="div9 testimonial" class="testimonial flow bg-neutral-100 text-secondary-400 centered-text">
+                <h2>GIT Version Control</h2>
+                <img src="./images/git-icon.png" alt="SB" />
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="Projects">
+        <div class="heading-wrapper">
+            <h1 class="title five">Projects</h1>
+        </div>
+        <main class="testimonial-grid">
+            <article class="testimonial testimonial-hover grid-col-span-2 flow bg-primary-400 quote text-neutral-100">
+                <div class="flex">
+                    <a href="https://github.com/Gravity1k/ShotCounter1" target="_blank">
+                    <div>
+                        <h2 class="name">Shot Counter</h2>
+                        <p class="position">
+                            This project uses Postgresql, Java Spring Boot, and Vue.JS
+                        </p>
+                    </div>
+                </div>
+            </a>
+                <p>
+                    This is my newest project relating to professional paintball and all
+                    the statistics within it. As a paintball player myself I saw a need
+                    for a website that can easily display statistical information
+                    related to pro paintball teams. It is still in early development but
+                    I have the basic fullstack CRUD working. Stay tuned as I hope to
+                    release it online this year!
+                </p>
+            </article>
+
+            <article class="testimonial testimonial-hover flow bg-neutral-100 text-secondary-400">
+                <div class="flex">
+                <a href="https://github.com/Gravity1k" target="_blank">
+                    <div>
+                        <h2 class="name">GitHub</h2>
+                    </div>
+                </div>
+            </a>
+                <p>You can view my GitHub profile here!</p>
+            </article>
+
+            <article class="testimonial testimonial-hover flow bg-secondary-400 text-neutral-100">
+                <div class="flex">
+                    <div>
+                        <a href="https://sudokuflare.com/" target="_blank">
+                        <h2 class="name">Sudoku Game</h2>
+                        <p class="position">Used JS, HTML, and CSS.</p>
+                    </div>
+                </div>
+            </a>
+                <p>
+                    This is my own project making a Sudoku game. I wanted to take some
+                    time and practice more JS. I wanted to learn how to play Sudoku so I
+                    decided to tackle the project of making my own game. Click the image
+                    to try it out!
+                </p>
+            </article>
+
+            <article class="testimonial testimonial-hover flow bg-neutral-100 text-secondary-400">
+                <div class="flex">
+                    <a href="https://github.com/Gravity1k/ChatTEr-Bot" target="_blank" >
+                    <div>
+                        <h2 class="name">ChatterBot</h2>
+                        <p class="position">
+                            This project used Postgresql, Java Spring Boot, and Vue.JS
+                        </p>
+                    </div>
+                </div>
+            </a>
+                <p>
+                    This project is a fullstack project designed to be a chat bot. I
+                    helped develop this on a small team working in a scrum environment.
+                    It was built to help assist students with questions they have
+                    regarding curriculum and job search.
+                </p>
+            </article>
+
+            <article class="testimonial testimonial-hover grid-col-span-2 flow bg-secondary-500 text-neutral-100">
+                <div class="flex">
+                    <a href="https://github.com/Gravity1k/Tenmo-" target="_blank">
+                    <div>
+                        <h2 class="name">Tenmo</h2>
+                        <p class="position">Java</p>
+                    </div>
+                </div>
+            </a>
+                <p>
+                    This was built entirely in Java to act as a Venmo clone. You are
+                    able to register a user and login. You have a balance that you can
+                    send to other users on the application as well. It keeps track of
+                    all your transactions, whether you sent or received money and who
+                    sent or received it.
+                </p>
+            </article>
+
+            <article class="testimonial testimonial-hover flow bg-neutral-100 text-secondary-400">
+                <div class="flex">
+                    <a href="https://mccoysites.com" target="_blank">
+                    <div>
+                        <h2 class="name">McCoy Designs</h2>
+                        <p class="position">Used HTML, CSS, and JS</p>
+                    </div>
+                </div>
+            </a>
+                <p>This is my company website I built as a frontend developer</p>
+            </article>
+        </main>
+    </section>
+
+
+    <div class="heading-wrapper">
+        <h1 class="title one">Contact</h1>
+    </div>
+    <div id="Contact" class="ContactContainer">
+        <div class="ContactCard">
+            <form action="https://formspree.io/f/xrgngkpr" method="POST">
+                <h2>Interested in working together?</h2>
+                <h3>Leave a message</h3>
+                <label>
+                    <input type="email" name="email" placeholder="Your Email">
+                </label>
+
+                <input type="text" name="name" id="name" placeholder="Your Name" />
+                <label>
+
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                </label>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+</html>
